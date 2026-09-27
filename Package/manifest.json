@@ -1,7 +1,7 @@
 {
   "name": "FrizzQOL_Brefasveinn_Belt",
   "version_number": "0.1.0",
-  "website_url": "",
+  "website_url": "https://github.com/frizzlebeard/FrizzQOL.BrefasveinnBelt",
   "description": "Craftable belt. While worn, portals allow ores, metals, and other blocked items.",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2333",

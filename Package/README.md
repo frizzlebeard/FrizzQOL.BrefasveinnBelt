@@ -17,6 +17,10 @@ There is no config file.
 
 Every player and the server need this mod, on the same minor version.
 
+## Source
+
+https://github.com/frizzlebeard/FrizzQOL.BrefasveinnBelt
+
 ## Install
 
 Install with r2modman or the Thunderstore Mod Manager.
