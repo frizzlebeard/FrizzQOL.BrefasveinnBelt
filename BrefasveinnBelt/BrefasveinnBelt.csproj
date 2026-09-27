@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\Environment.props" Condition="Exists('..\Environment.props')" />
+  <Import Project="..\DoPrebuild.props" Condition="Exists('..\DoPrebuild.props')" />
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <AssemblyName>FrizzQOL.BrefasveinnBelt</AssemblyName>
+    <RootNamespace>BrefasveinnBelt</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JotunnLib" Version="2.29.2" />
+  </ItemGroup>
+  <Target Name="DeployPlugin" AfterTargets="Build" Condition="Exists('$(MOD_DEPLOYPATH)')">
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(MOD_DEPLOYPATH)" SkipUnchangedFiles="true" />
+  </Target>
+</Project>

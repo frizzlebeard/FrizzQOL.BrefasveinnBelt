@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <VALHEIM_INSTALL>D:\SteamLibrary\steamapps\common\Valheim</VALHEIM_INSTALL>
+    <VALHEIM_MANAGED>D:\SteamLibrary\steamapps\common\Valheim\valheim_Data\Managed</VALHEIM_MANAGED>
+    <BEPINEX_PATH>D:\SteamLibrary\steamapps\common\Valheim\BepInEx</BEPINEX_PATH>
+    <MOD_DEPLOYPATH>D:\SteamLibrary\steamapps\common\Valheim\BepInEx\plugins</MOD_DEPLOYPATH>
+    <ExecutePrebuild>true</ExecutePrebuild>
+  </PropertyGroup>
+</Project>
